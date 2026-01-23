@@ -1,0 +1,10 @@
+.restaurant-list-wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: 40px auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 36px;
+}

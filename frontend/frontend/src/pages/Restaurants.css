@@ -1,0 +1,60 @@
+/* TAM SAYFA ARKA PLAN */
+.restaurants-page {
+    width: 100%;
+    min-height: 100vh;
+    background: #f7f7f7; /* Mockup açık gri arka plan */
+    padding-top: 40px;
+}
+
+/* ÜST BAŞLIK (mockup’ta photo blur yok, sade) */
+.restaurants-header {
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.restaurants-header .eyebrow {
+    color: #d54949;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.restaurants-header .title {
+    font-size: 44px;
+    font-weight: 800;
+    margin-top: 6px;
+}
+
+.restaurants-header .subtext {
+    margin-top: 6px;
+    font-size: 16px;
+    color: #6b6b6b;
+    max-width: 600px;
+}
+
+.restaurants-header .stats {
+    margin-top: 14px;
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    color: #777;
+}
+
+.restaurants-header .open-now {
+    color: #e24b4b;
+    font-weight: 600;
+}
+
+/* RESTORANT LİSTELEME ALANI */
+.restaurant-list-wrapper {
+    width: 100%;
+    max-width: 1300px;
+    margin: 30px auto 60px auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+}

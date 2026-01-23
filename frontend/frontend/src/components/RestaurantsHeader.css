@@ -1,0 +1,38 @@
+.restaurants-header {
+  width: 90%;
+  max-width: 1280px;
+  margin: 40px auto 20px auto;
+}
+
+.eyebrow {
+  color: #d54949;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 800;
+  margin-top: 6px;
+}
+
+.subtext {
+  margin-top: 6px;
+  font-size: 16px;
+  color: #6b6b6b;
+  max-width: 700px;
+}
+
+.stats {
+  margin-top: 14px;
+  display: flex;
+  gap: 8px;
+  color: #777;
+  font-size: 14px;
+}
+
+.open-now {
+  color: #e24b4b;
+  font-weight: 600;
+}

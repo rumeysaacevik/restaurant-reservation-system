@@ -1,0 +1,121 @@
+/* ARKA PLAN FOTO */
+.contact-hero-bg {
+  width: 100%;
+  height: 340px;
+  background-image: url("/images/about-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.9);
+}
+
+/* ANA CONTAINER */
+.contact-container {
+  width: 90%;
+  max-width: 1300px;
+  margin: -120px auto 60px auto;
+  display: flex;
+  gap: 40px;
+}
+
+/* SOL FORM */
+.contact-form-box {
+  flex: 1;
+  background: white;
+  padding: 40px;
+  border-radius: 22px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* 🔴 “7/24 DESTEK” Etiketi */
+.support-tag {
+  display: inline-block;
+  background: #fee2e2;       /* Açık kırmızı */
+  color: #dc2626;            /* Koyu kırmızı */
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.contact-title {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 10px 0 5px 0;
+}
+
+.contact-desc {
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+/* FORM STİLİ */
+.contact-form .form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+  flex: 1;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  font-size: 14px;
+  background: #f7f7f7;
+}
+
+.form-group textarea {
+  height: 110px;
+  resize: none;
+}
+
+/* 🔴 GÖNDER BUTONU */
+.send-btn {
+  width: 100%;
+  padding: 14px;
+  background: #dc2626;     /* Kırmızı */
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.send-btn:hover {
+  background: #b91c1c;     /* Hover kırmızı */
+}
+
+/* SAĞ İLETİŞİM KARTLARI */
+.contact-info-box {
+  flex: 1;
+}
+
+.info-card {
+  background: white;
+  display: flex;
+  gap: 14px;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+/* 🔴 İKONLARI DA KIRMIZI YAPALIM */
+.info-icon {
+  font-size: 22px;
+  color: #dc2626;
+}

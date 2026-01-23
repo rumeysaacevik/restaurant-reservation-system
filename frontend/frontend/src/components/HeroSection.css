@@ -1,0 +1,108 @@
+/* HERO TAM EKRAN */
+.hero {
+  width: 100vw; /* Gerçek tam ekran genişlik */
+  max-width: 100%;
+  height: 520px;
+
+  background-image: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  margin: 0;      /* Ortalamayı kaldır */
+  padding: 0;
+  border-radius: 0; /* Köşe yuvarlatmayı kaldır */
+
+  position: relative;
+  overflow: hidden;
+}
+
+/* KARARTMA KATMANI */
+.hero-overlay {
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.15)
+  );
+
+  display: flex;
+  align-items: center;
+}
+
+/* METİN KUTUSU */
+.hero-content {
+  margin-left: 70px; /* Tasarımdaki gibi soldan boşluk */
+  color: white;
+  max-width: 600px;
+}
+
+/* ÜST BADGE */
+.hero-badge {
+  background: rgba(255, 255, 255, 0.25);
+  padding: 6px 12px;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 13px;
+  margin-bottom: 14px;
+  letter-spacing: 0.5px;
+}
+
+/* BAŞLIK */
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.hero-content h1 span {
+  color: #ff5151;
+}
+
+/* AÇIKLAMA METNİ */
+.hero-text {
+  margin: 14px 0 24px 0;
+  font-size: 16px;
+  opacity: 0.9;
+  line-height: 1.5;
+}
+
+/* ARAMA KUTUSU */
+.hero-search-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  background: white;
+  padding: 12px 14px;
+  border-radius: 40px;
+
+  width: fit-content;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+.hero-search-box input {
+  border: none;
+  padding: 10px 14px;
+  outline: none;
+  font-size: 14px;
+  border-radius: 20px;
+  background: transparent;
+}
+
+.hero-search-box button {
+  background: var(--primary-red);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.hero-search-box button:hover {
+  background: #b71d1d;
+}

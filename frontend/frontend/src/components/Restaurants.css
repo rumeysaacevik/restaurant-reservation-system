@@ -1,0 +1,116 @@
+.restaurants-page {
+    background-color: #f8fafc; /* Görseldeki o çok hafif grimsi beyaz zemin */
+    min-height: 100vh;
+    width: 100%;
+}
+
+.restaurants-hero {
+    padding: 60px 5% 30px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.4) 0%, #f8fafc 100%),
+                url('../assets/images/anasayfa.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.subtitle {
+    color: #e11d48; /* Dinamik Manzaralar yazısı için canlı kırmızı */
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 10px 0;
+}
+
+.hero-content p {
+    color: #64748b;
+    max-width: 550px;
+    line-height: 1.6;
+}
+
+/* Sağ üstteki "42 Restoran Listelendi" kapsülü */
+.stats-info {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background: white;
+    padding: 8px 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    font-size: 13px;
+    color: #64748b;
+    border: 1px solid #f1f5f9;
+}
+
+.active-now {
+    color: #ef4444; /* "Şu an açık" noktası için kırmızı */
+    font-weight: 700;
+}
+
+/* Beyaz ve gölgeli filtreleme barı */
+.filter-bar {
+    background: white;
+    padding: 12px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+    display: flex;
+    gap: 15px;
+    margin-top: 40px;
+    border: 1px solid #f1f5f9;
+}
+
+.search-input {
+    flex: 2;
+    background: #f1f5f9;
+    padding: 12px 20px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.search-input input {
+    background: transparent;
+    border: none;
+    width: 100%;
+    outline: none;
+    font-weight: 500;
+}
+
+.filter-bar select {
+    flex: 1;
+    background: #f1f5f9;
+    border: none;
+    padding: 12px;
+    border-radius: 14px;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.date-btn {
+    background: #e11d48;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.restaurant-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 30px;
+    padding: 40px 5% 80px;
+    max-width: 1300px;
+    margin: 0 auto;
+}

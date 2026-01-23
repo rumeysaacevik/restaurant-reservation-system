@@ -1,0 +1,210 @@
+.settings-container {
+    padding: 20px;
+    animation: fadeIn 0.3s ease;
+}
+
+.settings-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 25px;
+}
+
+.settings-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    margin-bottom: 25px;
+}
+
+.branding {
+    grid-column: span 2;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.card-header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.card-header .icon {
+    font-size: 1.2rem;
+    color: #e31c25;
+}
+
+/* Form Elemanları */
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.form-group input, .form-group textarea {
+    padding: 12px 15px;
+    border: 1px solid #eef0f2;
+    border-radius: 12px;
+    background: #fcfdfe;
+    font-size: 0.95rem;
+    transition: 0.2s;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    outline: none;
+    border-color: #e31c25;
+    box-shadow: 0 0 0 3px rgba(227, 28, 37, 0.1);
+}
+
+.form-group small {
+    color: #999;
+    font-size: 0.8rem;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.inner-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+.input-with-icon input {
+    padding-left: 40px;
+    width: 100%;
+}
+
+/* Toggle Switch */
+.toggle-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #f5f7fa;
+}
+
+.toggle-item:last-child { border: none; }
+
+.toggle-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.toggle-text strong { font-size: 0.95rem; }
+.toggle-text span { font-size: 0.85rem; color: #888; }
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 46px;
+    height: 24px;
+}
+
+.switch input { opacity: 0; width: 0; height: 0; }
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px; width: 18px;
+    left: 3px; bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider { background-color: #e31c25; }
+input:checked + .slider:before { transform: translateX(22px); }
+
+/* Logo Bölümü */
+.logo-section {
+    display: flex;
+    gap: 40px;
+}
+
+.logo-placeholder {
+    width: 120px;
+    height: 120px;
+    background: #f4f6f9;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.drop-area {
+    border: 2px dashed #d1d5db;
+    border-radius: 20px;
+    padding: 30px 60px;
+    text-align: center;
+    background: #f9fafb;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.drop-area:hover { border-color: #e31c25; background: #fff; }
+
+.upload-icon { font-size: 2rem; color: #999; }
+
+/* Footer */
+.settings-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn-cancel {
+    background: none;
+    border: none;
+    color: #666;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-save {
+    background: #e31c25;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(227, 28, 37, 0.3);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

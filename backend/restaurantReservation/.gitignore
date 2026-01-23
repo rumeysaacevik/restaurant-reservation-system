@@ -1,0 +1,13 @@
+# Maven
+target/
+
+# NetBeans
+nbproject/private/
+
+# IDE / OS
+.idea/
+.vs/
+*.log
+
+# Env
+.env

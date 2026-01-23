@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Özet</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            padding: 40px;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            width: 300px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,.08);
+            cursor: pointer;
+            transition: transform .15s ease, box-shadow .15s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 30px rgba(0,0,0,.15);
+        }
+
+        h2 {
+            margin-bottom: 8px;
+        }
+
+        p {
+            font-size: 26px;
+            font-weight: bold;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<h1>📊 Admin Özet Sayfası</h1>
+
+<!-- KULLANICILAR -->
+<div class="card" onclick="location.href='/admin/users'">
+    <h2>👤 Toplam Kullanıcı</h2>
+    <p th:text="${userCount}">0</p>
+</div>
+
+<!-- RESTORANLAR -->
+<div class="card" onclick="location.href='/admin/restaurants'">
+    <h2>🏪 Toplam Restoran</h2>
+    <p th:text="${restaurantCount}">0</p>
+</div>
+
+<!-- REZERVASYONLAR -->
+<div class="card" onclick="location.href='/admin/reservations'">
+    <h2>📅 Toplam Rezervasyon</h2>
+    <p th:text="${reservationCount}">0</p>
+</div>
+
+</body>
+</html>  

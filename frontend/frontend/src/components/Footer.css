@@ -1,0 +1,109 @@
+.footer {
+  background: #2e2e2e;
+  color: #eaeaea;
+  padding: 50px 0 20px 0;
+  margin-top: 60px;
+}
+
+.footer-container {
+  width: 90%;
+  max-width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-left {
+  flex: 1;
+}
+
+.footer-logo {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.footer-desc {
+  color: #cccccc;
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 240px;
+}
+
+.footer-block {
+  flex: 1;
+}
+
+.footer-block h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.footer-block ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-block ul li {
+  margin-bottom: 8px;
+}
+
+.footer-block ul li a {
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-block ul li a:hover {
+  color: #ffffff;
+}
+
+/* Yönetici */
+.admin-block p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.admin-btn {
+  background: #d62828;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.admin-btn:hover {
+  background: #b71d1d;
+}
+
+/* ALT SATIR */
+.footer-bottom {
+  width: 90%;
+  max-width: 1250px;
+  margin: 30px auto 0 auto;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom p {
+  font-size: 13px;
+  color: #ccc;
+}
+
+.footer-links a {
+  margin-left: 15px;
+  font-size: 13px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: white;
+}

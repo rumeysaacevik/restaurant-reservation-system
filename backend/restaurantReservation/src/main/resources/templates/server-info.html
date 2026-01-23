@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${title}">Server Info</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8fafc;
+            padding: 40px;
+        }
+        .card {
+            max-width: 500px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,.1);
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        p {
+            color: #475569;
+        }
+        .status {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            background: #dcfce7;
+            color: #166534;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1 th:text="${title}">Başlık</h1>
+    <p th:text="${message}">Mesaj</p>
+
+    <div class="status" th:text="${status}">
+        Sistem Durumu
+    </div>
+</div>
+
+</body>
+</html>

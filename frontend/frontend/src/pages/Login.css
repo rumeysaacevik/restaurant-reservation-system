@@ -1,0 +1,192 @@
+/* ARKA PLAN */
+.login-bg {
+  background-image: url("/images/anasayfa.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  filter: brightness(0.65);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* ORTA KART WRAPPER */
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+/* GİRİŞ KARTI */
+.login-card {
+  width: 420px;
+  background: rgba(255,255,255,0.92);
+  padding: 35px;
+  border-radius: 22px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 35px rgba(0,0,0,0.25);
+}
+
+/* TABLAR */
+.login-tabs {
+  display: flex;
+  background: #f0f0f0;
+  border-radius: 40px;
+  padding: 4px;
+  margin-bottom: 25px;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px 0;
+  border-radius: 30px;
+  font-weight: 600;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  color: #444;
+}
+
+.tab.active {
+  background: white;
+  color: #dc2626;
+}
+
+/* BAŞLIK */
+.login-title {
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.login-subtitle {
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* FORM */
+.login-form label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #555;
+  margin-top: 14px;
+  display: block;
+}
+
+/* INPUT */
+.input-box {
+  position: relative;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center; /* input'u ortalamak için */
+}
+
+.input-box input {
+  width: 90%;               /* 🔥 Kutuları daraltır */
+  padding: 12px 14px 12px 42px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: white;
+  font-size: 14px;
+  display: block;
+}
+
+.input-box input:focus {
+  outline: none;
+  border-color: #dc2626;
+  box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.25);
+}
+
+.input-icon {
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+/* FORM ALT SEÇENEKLER */
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.forgot-link {
+  color: #dc2626;
+  font-size: 13px;
+}
+
+/* 🔴 GİRİŞ YAP BUTONU */
+.login-btn {
+  width: 90%;                     /* 🔥 Butonu da ortalıyoruz */
+  margin: 18px auto 0 auto;
+  padding: 14px;
+  background: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  box-shadow: 0 6px 15px rgba(220, 38, 38, 0.35);
+  transition: 0.2s ease;
+}
+
+.login-btn:hover {
+  background: #b91c1c;
+}
+
+.login-btn-icon {
+  font-size: 18px;
+}
+
+/* AYIRICI */
+.divider {
+  text-align: center;
+  margin: 22px 0;
+  font-size: 13px;
+  color: #777;
+}
+
+/* SOSYAL BUTONLAR */
+.social-login {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.social-btn {
+  width: 45%;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  background: white;
+}
+
+/* FOOTER YAZISI */
+.login-footer-text {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 13px;
+}
+
+.signup-link {
+  color: #dc2626;
+  font-weight: 600;
+}
