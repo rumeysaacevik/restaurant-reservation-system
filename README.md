@@ -1,11 +1,11 @@
-# 🍽️ Restaurant Reservation System
+#  Restaurant Reservation System
 
 This project is a **full-stack restaurant reservation system** developed as part of an academic project.
 It allows customers to make reservations and enables administrators to manage restaurant tables and bookings efficiently.
 
 ---
 
-## 🚀 Technologies Used
+##  Technologies Used
 
 ### Backend
 
@@ -23,7 +23,7 @@ It allows customers to make reservations and enables administrators to manage re
 
 ---
 
-## 📌 Features
+##  Features
 
 * User-friendly reservation interface
 * Table and reservation management
@@ -33,7 +33,7 @@ It allows customers to make reservations and enables administrators to manage re
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 restaurant-reservation-system/
@@ -50,7 +50,7 @@ restaurant-reservation-system/
 
 ---
 
-## ⚙️ Setup & Run
+##  Setup & Run
 
 ### Backend
 
@@ -67,7 +67,7 @@ npm run dev
 
 ---
 
-## 🖼️ Screenshots
+##  Screenshots
 
 Below are screenshots from different parts of the application:
 
@@ -108,6 +108,6 @@ Below are screenshots from different parts of the application:
 
 ---
 
-## 📄 License
+##  License
 
 This project is for educational purposes.
